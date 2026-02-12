@@ -7,6 +7,7 @@ import MarqueeBanner from '@/components/MarqueeBanner';
 import ExpertiseSection from '@/components/ExpertiseSection';
 import AboutSection from '@/components/AboutSection';
 import ExperienceSection from '@/components/ExperienceSection';
+import FAQSection from '@/components/FAQSection';
 
 import ContactSection from '@/components/ContactSection';
 import profileImage from '@/assets/profile.jpg';
@@ -168,7 +169,7 @@ const Index = () => {
       <ExpertiseSection t={t} />
       <AboutSection t={t} isRtl={isRtl} />
       <ExperienceSection t={t} />
-      
+      <FAQSection t={t} />
       
       <ContactSection t={t} />
     </div>);
