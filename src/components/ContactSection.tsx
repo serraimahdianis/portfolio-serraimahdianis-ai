@@ -39,7 +39,7 @@ const ContactSection = ({ t }: Props) => {
             {/* Centered primary CTA button */}
             <div className="flex justify-center mb-16">
               <a
-                href="https://wa.me/213000000000"
+                href="https://wa.me/+213663466364"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary text-primary-foreground w-40 h-40 rounded-full font-bold text-sm hover:scale-110 transition-all flex items-center justify-center glow-gold"
@@ -72,7 +72,7 @@ const ContactSection = ({ t }: Props) => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/213000000000"
+                href="https://wa.me/+213663466364"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-whatsapp text-whatsapp-foreground px-8 py-4 rounded-2xl font-bold text-sm hover:scale-105 transition-all flex items-center justify-center gap-2"
