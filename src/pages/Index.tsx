@@ -10,9 +10,7 @@ import ExperienceSection from '@/components/ExperienceSection';
 
 import ContactSection from '@/components/ContactSection';
 import profileImage from '@/assets/profile.jpg';
-import facebookLogo from '@/assets/facebook-logo.webp';
-import pinterestLogo from '@/assets/pinterest-logo.webp';
-import { ArrowRight, Download, ShoppingCart, Menu, X, TrendingUp } from 'lucide-react';
+import { ArrowRight, Download, ShoppingCart, Menu, X } from 'lucide-react';
 
 const Index = () => {
   const { lang, setLang, isRtl } = useLanguage();
@@ -117,34 +115,8 @@ const Index = () => {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-primary/8 blur-[120px] rounded-full pointer-events-none -z-10" />
 
         <div className="max-w-5xl mx-auto text-center relative">
-          {/* Profile image with floating badges and platform logos */}
+          {/* Profile image with floating badges */}
           <div className="inline-block mb-8 relative group">
-            {/* Facebook Logo - Left Side */}
-            <div className={`absolute top-1/2 -translate-y-1/2 ${isRtl ? 'right-[-140px] md:right-[-180px]' : 'left-[-140px] md:left-[-180px]'} w-20 h-20 md:w-28 md:h-28 bg-card border-2 border-border rounded-2xl shadow-2xl flex items-center justify-center z-10 animate-bounce`} style={{ animationDuration: '3s' }}>
-              <img src={facebookLogo} alt="Facebook" className="w-12 h-12 md:w-16 md:h-16 object-contain" />
-              {/* Rising Traffic Animation */}
-              <div className="absolute -top-8 left-1/2 -translate-x-1/2 flex flex-col items-center">
-                <div className="flex items-center gap-1 bg-green-500 text-white px-2 py-1 rounded-full text-[10px] font-bold animate-pulse">
-                  <TrendingUp size={12} />
-                  <span className="animate-pulse">+247%</span>
-                </div>
-                <div className="w-0.5 h-4 bg-gradient-to-t from-green-500 to-transparent mt-1"></div>
-              </div>
-            </div>
-
-            {/* Pinterest Logo - Right Side */}
-            <div className={`absolute top-1/2 -translate-y-1/2 ${isRtl ? 'left-[-140px] md:left-[-180px]' : 'right-[-140px] md:right-[-180px]'} w-20 h-20 md:w-28 md:h-28 bg-card border-2 border-border rounded-2xl shadow-2xl flex items-center justify-center z-10 animate-bounce`} style={{ animationDuration: '3s', animationDelay: '1.5s' }}>
-              <img src={pinterestLogo} alt="Pinterest" className="w-12 h-12 md:w-16 md:h-16 object-contain" />
-              {/* Rising Traffic Animation */}
-              <div className="absolute -top-8 left-1/2 -translate-x-1/2 flex flex-col items-center">
-                <div className="flex items-center gap-1 bg-red-500 text-white px-2 py-1 rounded-full text-[10px] font-bold animate-pulse">
-                  <TrendingUp size={12} />
-                  <span className="animate-pulse">+189%</span>
-                </div>
-                <div className="w-0.5 h-4 bg-gradient-to-t from-red-500 to-transparent mt-1"></div>
-              </div>
-            </div>
-
             <div className="w-48 h-48 md:w-64 md:h-64 rounded-[2.5rem] overflow-hidden border-2 border-border shadow-2xl relative transition-transform duration-500 group-hover:scale-[1.02] bg-card">
               <img
                 src={profileImage}
