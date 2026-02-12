@@ -45,6 +45,34 @@ export const translations: Record<Language, Translation> = {
       { title: 'AI Creative with Nano Banane Veo3 Kling', desc: 'Leveraging cutting-edge AI tools including Nano Banane, Veo3, and Kling to create innovative visual content, video generation, and creative automation that pushes the boundaries of digital marketing.' },
       { title: 'Stores & Sites Landing Pages & CMS AI', desc: 'Building high-converting e-commerce stores, professional websites, and landing pages using AI-powered CMS platforms with intelligent content management, automated optimization, and seamless user experiences.' },
     ],
+    faq_title: 'Frequently Asked Questions',
+    faq_subtitle: 'Got questions? I have answers.',
+    faq_questions: [
+      {
+        question: 'What services do you offer?',
+        answer: 'I offer comprehensive digital marketing services including Google Discover SEO, Facebook & Instagram Ads, Pinterest Growth strategies, TikTok Marketing, n8n Automation workflows, Micro Importation & E-commerce solutions, AI Creative content generation, and professional website/CMS development with AI integration.'
+      },
+      {
+        question: 'How long does it take to see results?',
+        answer: 'Results vary by service. Google Discover SEO typically shows results within 2-4 weeks. Paid advertising (Facebook/Instagram Ads) can generate immediate traffic. Pinterest and organic strategies usually take 1-3 months to build sustainable traffic. I provide detailed timelines during our initial consultation.'
+      },
+      {
+        question: 'Do you work with international clients?',
+        answer: 'Yes! I work with clients worldwide. With modern communication tools and my experience in global markets, distance is never a barrier. I have successfully helped clients from Europe, North America, Middle East, and Africa achieve their digital marketing goals.'
+      },
+      {
+        question: 'What is your pricing structure?',
+        answer: 'Pricing depends on the scope and complexity of your project. I offer both project-based pricing and monthly retainer packages. Contact me for a free consultation and customized quote based on your specific needs and goals.'
+      },
+      {
+        question: 'Can you help with product sourcing from China?',
+        answer: 'Absolutely! I provide end-to-end micro importation services from China including supplier verification, product sourcing, quality control, logistics management, and e-commerce store setup. I handle the entire process so you can focus on growing your business.'
+      },
+      {
+        question: 'Do you offer ongoing support and maintenance?',
+        answer: 'Yes, I offer ongoing support packages for all services. This includes performance monitoring, strategy adjustments, technical support, and regular optimization to ensure your digital presence continues to grow and perform at its best.'
+      }
+    ],
   },
   [Language.FR]: {
     nav_home: 'Accueil',
@@ -89,6 +117,34 @@ export const translations: Record<Language, Translation> = {
       { title: 'Stratégies Créatives', desc: "Élaboration de stratégies créatives basées sur les données combinant storytelling, identité de marque, calendriers de contenu, tests A/B et psychologie d'audience pour maximiser l'engagement et les conversions sur tous les canaux digitaux." },
       { title: 'Créatif IA avec Nano Banane Veo3 Kling', desc: "Exploitation d'outils IA de pointe dont Nano Banane, Veo3 et Kling pour créer du contenu visuel innovant, de la génération vidéo et une automatisation créative qui repousse les limites du marketing digital." },
       { title: 'Boutiques & Sites Pages de Vente & CMS IA', desc: "Construction de boutiques e-commerce à fort taux de conversion, sites professionnels et pages de destination utilisant des plateformes CMS alimentées par l'IA avec gestion de contenu intelligente, optimisation automatisée et expériences utilisateur fluides." },
+    ],
+    faq_title: 'Questions Fréquemment Posées',
+    faq_subtitle: 'Vous avez des questions ? J\'ai les réponses.',
+    faq_questions: [
+      {
+        question: 'Quels services proposez-vous ?',
+        answer: 'Je propose des services complets de marketing digital incluant le SEO Google Discover, les publicités Facebook & Instagram, les stratégies de croissance Pinterest, le marketing TikTok, les workflows d\'automatisation n8n, les solutions de micro importation et e-commerce, la génération de contenu créatif IA, et le développement de sites web/CMS professionnels avec intégration IA.'
+      },
+      {
+        question: 'Combien de temps faut-il pour voir des résultats ?',
+        answer: 'Les résultats varient selon les services. Le SEO Google Discover montre généralement des résultats en 2-4 semaines. La publicité payante (Facebook/Instagram Ads) peut générer du trafic immédiat. Pinterest et les stratégies organiques prennent généralement 1-3 mois pour construire un trafic durable. Je fournis des délais détaillés lors de notre consultation initiale.'
+      },
+      {
+        question: 'Travaillez-vous avec des clients internationaux ?',
+        answer: 'Oui ! Je travaille avec des clients du monde entier. Grâce aux outils de communication modernes et à mon expérience sur les marchés internationaux, la distance n\'est jamais un obstacle. J\'ai aidé avec succès des clients d\'Europe, d\'Amérique du Nord, du Moyen-Orient et d\'Afrique à atteindre leurs objectifs de marketing digital.'
+      },
+      {
+        question: 'Quelle est votre structure tarifaire ?',
+        answer: 'Les tarifs dépendent de la portée et de la complexité de votre projet. Je propose des tarifs basés sur des projets et des forfaits mensuels. Contactez-moi pour une consultation gratuite et un devis personnalisé selon vos besoins et objectifs spécifiques.'
+      },
+      {
+        question: 'Pouvez-vous aider avec le sourcing de produits en Chine ?',
+        answer: 'Absolument ! Je fournis des services complets de micro importation depuis la Chine incluant la vérification des fournisseurs, le sourcing de produits, le contrôle qualité, la gestion logistique et la configuration de boutiques e-commerce. Je gère tout le processus pour que vous puissiez vous concentrer sur le développement de votre entreprise.'
+      },
+      {
+        question: 'Proposez-vous un support et une maintenance continus ?',
+        answer: 'Oui, je propose des forfaits de support continus pour tous les services. Cela inclut le monitoring des performances, les ajustements de stratégie, le support technique et l\'optimisation régulière pour garantir que votre présence digitale continue de croître et de performer au mieux.'
+      }
     ],
   },
   [Language.AR]: {
@@ -135,6 +191,34 @@ export const translations: Record<Language, Translation> = {
       { title: 'الإبداع بالذكاء الاصطناعي مع Nano Banane Veo3 Kling', desc: 'الاستفادة من أدوات الذكاء الاصطناعي المتطورة بما في ذلك Nano Banane وVeo3 وKling لإنشاء محتوى بصري مبتكر وتوليد فيديوهات وأتمتة إبداعية تدفع حدود التسويق الرقمي.' },
       { title: 'المتاجر والمواقع وصفحات الهبوط ونظم إدارة المحتوى بالذكاء الاصطناعي', desc: 'بناء متاجر تجارة إلكترونية عالية التحويل ومواقع احترافية وصفحات هبوط باستخدام منصات إدارة المحتوى المدعومة بالذكاء الاصطناعي مع إدارة محتوى ذكية وتحسين آلي وتجارب مستخدم سلسة.' },
     ],
+    faq_title: 'الأسئلة الشائعة',
+    faq_subtitle: 'هل لديك أسئلة؟ لدي الإجابات.',
+    faq_questions: [
+      {
+        question: 'ما الخدمات التي تقدمها؟',
+        answer: 'أقدم خدمات شاملة للتسويق الرقمي تشمل تحسين محركات البحث Google Discover، إعلانات فيسبوك وإنستغرام، استراتيجيات نمو بنترست، تسويق تيك توك، سير عمل الأتمتة n8n، حلول الاستيراد المصغر والتجارة الإلكترونية، إنشاء محتوى إبداعي بالذكاء الاصطناعي، وتطوير مواقع الويب/CMS الاحترافية مع دمج الذكاء الاصطناعي.'
+      },
+      {
+        question: 'كم يستغرق لرؤية النتائج؟',
+        answer: 'تختلف النتائج حسب الخدمة. عادةً ما يظهر SEO Google Discover نتائج في غضون 2-4 أسابيع. يمكن للإعلانات المدفوعة (فيسبوك/إنستغرام) توليد حركة مرور فورية. بينما تستغرق استراتيجيات بنترست والتسويق العضوي عادةً 1-3 أشهر لبناء حركة مرور مستدامة. أقدم جداول زمنية مفصلة خلال الاستشارة الأولى.'
+      },
+      {
+        question: 'هل تعمل مع العملاء الدوليين؟',
+        answer: 'نعم! أعمل مع عملاء من جميع أنحاء العالم. بفضل أدوات التواصل الحديثة وخبرتي في الأسواق العالمية، المسافة ليست عائقاً أبداً. لقد ساعدت بنجاح عملاء من أوروبا وأمريكا الشمالية والشرق الأوسط وأفريقيا في تحقيق أهدافهم في التسويق الرقمي.'
+      },
+      {
+        question: 'ما هي هيكلية التسعير لديك؟',
+        answer: 'تعتمد الأسعار على نطاق ومدى تعقيد مشروعك. أقدم كل من التسعير القائم على المشاريع وباقات الاستبقاء الشهرية. اتصل بي للحصول على استشارة مجانية وعرض سعر مخصص حسب احتياجاتك وأهدافك المحددة.'
+      },
+      {
+        question: 'هل يمكنك المساعدة في توفير المنتجات من الصين؟',
+        answer: 'بالطبع! أقدم خدمات شاملة للاستيراد المصغر من الصين تشمل التحقق من الموردين، توفير المنتجات، مراقبة الجودة، إدارة اللوجستيات، وإعداد المتاجر الإلكترونية. أتولى إدارة العملية بأكملها حتى تتمكن من التركيز على تطوير عملك.'
+      },
+      {
+        question: 'هل تقدم دعم وصيانة مستمرة؟',
+        answer: 'نعم، أقدم باقات دعم مستمرة لجميع الخدمات. يشمل ذلك مراقبة الأداء، تعديلات الاستراتيجية، الدعم الفني، والتحسين المستمر لضمان استمرار نمو حضورك الرقمي وأدائه على أفضل وجه.'
+      }
+    ],
   },
   [Language.DE]: {
     nav_home: 'Startseite',
@@ -179,6 +263,34 @@ export const translations: Record<Language, Translation> = {
       { title: 'Kreative Strategien', desc: 'Datengetriebene kreative Strategien, die Storytelling, Markenidentität, Content-Kalender, A/B-Tests und Zielgruppenpsychologie kombinieren, um Engagement und Conversions über alle digitalen Kanäle zu maximieren.' },
       { title: 'KI Kreativ mit Nano Banane Veo3 Kling', desc: 'Nutzung modernster KI-Tools einschließlich Nano Banane, Veo3 und Kling zur Erstellung innovativer visueller Inhalte, Videogenerierung und kreativer Automatisierung, die die Grenzen des digitalen Marketings erweitert.' },
       { title: 'Shops & Websites Landing Pages & CMS KI', desc: 'Aufbau hochkonvertierender E-Commerce-Shops, professioneller Websites und Landing Pages mit KI-gestützten CMS-Plattformen mit intelligentem Content-Management, automatisierter Optimierung und nahtlosen Benutzererlebnissen.' },
+    ],
+    faq_title: 'Häufig Gestellte Fragen',
+    faq_subtitle: 'Haben Sie Fragen? Ich habe Antworten.',
+    faq_questions: [
+      {
+        question: 'Welche Dienstleistungen bieten Sie an?',
+        answer: 'Ich biete umfassende digitale Marketing-Dienstleistungen an, einschließlich Google Discover SEO, Facebook & Instagram Ads, Pinterest Wachstumsstrategien, TikTok Marketing, n8n Automatisierungs-Workflows, Mikroimport & E-Commerce-Lösungen, KI-gestützte Content-Erstellung und professionelle Website/CMS-Entwicklung mit KI-Integration.'
+      },
+      {
+        question: 'Wie lange dauert es, bis Ergebnisse sichtbar sind?',
+        answer: 'Die Ergebnisse variieren je nach Dienstleistung. Google Discover SEO zeigt typischerweise innerhalb von 2-4 Wochen Ergebnisse. Bezahlte Werbung (Facebook/Instagram Ads) kann sofortigen Traffic generieren. Pinterest und organische Strategien dauern in der Regel 1-3 Monate, um nachhaltigen Traffic aufzubauen. Ich gebe während der ersten Beratung detaillierte Zeitpläne an.'
+      },
+      {
+        question: 'Arbeiten Sie mit internationalen Kunden zusammen?',
+        answer: 'Ja! Ich arbeite mit Kunden aus der ganzen Welt zusammen. Mit modernen Kommunikationstools und meiner Erfahrung auf internationalen Märkten ist Entfernung nie ein Hindernis. Ich habe erfolgreich Kunden aus Europa, Nordamerika, dem Nahen Osten und Afrika dabei geholfen, ihre digitalen Marketingziele zu erreichen.'
+      },
+      {
+        question: 'Wie ist Ihre Preisstruktur?',
+        answer: 'Die Preise hängen vom Umfang und der Komplexität Ihres Projekts ab. Ich biete sowohl projektbasierte Preise als auch monatliche Betreuungspakete an. Kontaktieren Sie mich für eine kostenlose Beratung und ein individuelles Angebot basierend auf Ihren spezifischen Bedürfnissen und Zielen.'
+      },
+      {
+        question: 'Können Sie bei der Produktbeschaffung aus China helfen?',
+        answer: 'Absolut! Ich biete komplette Mikroimport-Dienstleistungen aus China an, einschließlich Lieferantenverifizierung, Produktbeschaffung, Qualitätskontrolle, Logistikmanagement und E-Commerce-Shop-Setup. Ich kümmere mich um den gesamten Prozess, damit Sie sich auf das Wachstum Ihres Unternehmens konzentrieren können.'
+      },
+      {
+        question: 'Bieten Sie laufenden Support und Wartung an?',
+        answer: 'Ja, ich biete laufende Support-Pakete für alle Dienstleistungen an. Dies umfasst Leistungsmonitoring, Strategieanpassungen, technischen Support und regelmäßige Optimierung, um sicherzustellen, dass Ihre digitale Präsenz weiterhin wächst und optimal performt.'
+      }
     ],
   },
 };

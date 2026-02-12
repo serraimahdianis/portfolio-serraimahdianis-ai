@@ -39,4 +39,7 @@ export interface Translation {
   chatbot_send: string;
   chatbot_close: string;
   chatbot_open: string;
+  faq_title: string;
+  faq_subtitle: string;
+  faq_questions: { question: string; answer: string }[];
 }
