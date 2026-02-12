@@ -1,11 +1,11 @@
 import { Translation } from '@/lib/types';
-import { Globe, TrendingUp, Share2, Monitor, Workflow, ShoppingCart, Lightbulb } from 'lucide-react';
+import { Globe, TrendingUp, Share2, Monitor, Workflow, ShoppingCart, Lightbulb, Sparkles, Store } from 'lucide-react';
 
 interface Props {
   t: Translation;
 }
 
-const icons = [Globe, TrendingUp, Share2, Monitor, Workflow, ShoppingCart, Lightbulb];
+const icons = [Globe, TrendingUp, Share2, Monitor, Workflow, ShoppingCart, Lightbulb, Sparkles, Store];
 
 const ExpertiseSection = ({ t }: Props) => {
   return (

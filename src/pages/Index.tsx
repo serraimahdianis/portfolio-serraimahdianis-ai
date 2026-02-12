@@ -10,11 +10,12 @@ import ExperienceSection from '@/components/ExperienceSection';
 
 import ContactSection from '@/components/ContactSection';
 import profileImage from '@/assets/profile.jpg';
-import { ArrowRight, Download, ShoppingCart } from 'lucide-react';
+import { ArrowRight, Download, ShoppingCart, Menu, X } from 'lucide-react';
 
 const Index = () => {
   const { lang, setLang, isRtl } = useLanguage();
   const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const t = translations[lang];
 
   useEffect(() => {
@@ -37,6 +38,7 @@ const Index = () => {
             <LanguageSwitcher currentLang={lang} onLanguageChange={setLang} />
           </div>
 
+          {/* Desktop Navigation - Hidden on mobile/tablet */}
           <div className="hidden lg:flex items-center gap-8 text-xs font-bold uppercase tracking-widest">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">{t.nav_home}</a>
             <a href="#services" className="text-muted-foreground hover:text-primary transition-colors">{t.nav_services}</a>
@@ -51,7 +53,61 @@ const Index = () => {
               {lang === 'en' ? 'Micro Import' : lang === 'fr' ? 'Micro Import' : lang === 'ar' ? 'الاستيراد المصغر' : 'Mikroimport'}
             </a>
           </div>
+
+          {/* Mobile/Tablet Hamburger Menu Button */}
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="lg:hidden p-2 rounded-lg bg-primary/10 hover:bg-primary/20 transition-colors"
+            aria-label="Toggle menu"
+          >
+            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
+
+        {/* Mobile/Tablet Menu Overlay */}
+        {mobileMenuOpen && (
+          <div className="lg:hidden absolute top-full left-0 right-0 bg-background/95 backdrop-blur-md border-b border-border shadow-lg">
+            <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col gap-4">
+              <a 
+                href="#" 
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-foreground hover:text-primary transition-colors font-bold uppercase tracking-widest py-2"
+              >
+                {t.nav_home}
+              </a>
+              <a 
+                href="#services" 
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-foreground hover:text-primary transition-colors font-bold uppercase tracking-widest py-2"
+              >
+                {t.nav_services}
+              </a>
+              <a 
+                href="#about" 
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-foreground hover:text-primary transition-colors font-bold uppercase tracking-widest py-2"
+              >
+                {t.nav_about}
+              </a>
+              <a 
+                href="#contact" 
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-foreground hover:text-primary transition-colors font-bold uppercase tracking-widest py-2"
+              >
+                {t.nav_contact}
+              </a>
+              {/* Yellow Micro Importation Button */}
+              <a 
+                href="#services" 
+                onClick={() => setMobileMenuOpen(false)}
+                className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold px-5 py-2.5 rounded-full transition-all duration-300 flex items-center gap-2 shadow-lg w-fit"
+              >
+                <ShoppingCart className="h-4 w-4" />
+                {lang === 'en' ? 'Micro Import' : lang === 'fr' ? 'Micro Import' : lang === 'ar' ? 'الاستيراد المصغر' : 'Mikroimport'}
+              </a>
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* Hero */}

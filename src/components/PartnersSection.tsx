@@ -1,10 +1,10 @@
 import { Translation } from '@/lib/types';
-import n8nLogo from '@/assets/n8n-logo.png';
-import googleAdsenseLogo from '@/assets/google-adsense-logo.png';
-import ezoicLogo from '@/assets/ezoic-logo.png';
-import facebookPartnerLogo from '@/assets/facebook-partner-logo.png';
-import pinterestPartnerLogo from '@/assets/pinterest-partner-logo.png';
-import tiktokPartnerLogo from '@/assets/tiktok-partner-logo.png';
+import n8nLogo from '@/assets/n8n-logo.webp';
+import googleAdsenseLogo from '@/assets/google-adsense-logo.webp';
+import ezoicLogo from '@/assets/ezoic-logo.webp';
+import facebookPartnerLogo from '@/assets/facebook-partner-logo.webp';
+import pinterestPartnerLogo from '@/assets/pinterest-partner-logo.webp';
+import tiktokPartnerLogo from '@/assets/tiktok-partner-logo.webp';
 
 interface Props {
   t: Translation;

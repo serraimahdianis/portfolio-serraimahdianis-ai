@@ -42,6 +42,8 @@ export const translations: Record<Language, Translation> = {
       { title: 'n8n Automation', desc: 'Building powerful no-code automation workflows with n8n to streamline operations, data pipelines, and marketing processes at scale.' },
       { title: 'Micro Importation & E-com', desc: 'End-to-end micro importation services from China with full e-commerce setup, product sourcing, and logistics management.' },
       { title: 'Creative Strategies', desc: 'Crafting data-driven creative strategies that blend compelling storytelling, brand identity design, content calendars, A/B testing frameworks, and audience psychology to maximize engagement and conversions across all digital channels.' },
+      { title: 'AI Creative with Nano Banane Veo3 Kling', desc: 'Leveraging cutting-edge AI tools including Nano Banane, Veo3, and Kling to create innovative visual content, video generation, and creative automation that pushes the boundaries of digital marketing.' },
+      { title: 'Stores & Sites Landing Pages & CMS AI', desc: 'Building high-converting e-commerce stores, professional websites, and landing pages using AI-powered CMS platforms with intelligent content management, automated optimization, and seamless user experiences.' },
     ],
   },
   [Language.FR]: {
@@ -85,6 +87,8 @@ export const translations: Record<Language, Translation> = {
       { title: 'Automatisation n8n', desc: "Création de workflows d'automatisation puissants avec n8n pour optimiser les opérations, les pipelines de données et les processus marketing." },
       { title: 'Micro Importation & E-com', desc: "Services complets de micro importation depuis la Chine avec configuration e-commerce, sourcing produits et gestion logistique." },
       { title: 'Stratégies Créatives', desc: "Élaboration de stratégies créatives basées sur les données combinant storytelling, identité de marque, calendriers de contenu, tests A/B et psychologie d'audience pour maximiser l'engagement et les conversions sur tous les canaux digitaux." },
+      { title: 'Créatif IA avec Nano Banane Veo3 Kling', desc: "Exploitation d'outils IA de pointe dont Nano Banane, Veo3 et Kling pour créer du contenu visuel innovant, de la génération vidéo et une automatisation créative qui repousse les limites du marketing digital." },
+      { title: 'Boutiques & Sites Pages de Vente & CMS IA', desc: "Construction de boutiques e-commerce à fort taux de conversion, sites professionnels et pages de destination utilisant des plateformes CMS alimentées par l'IA avec gestion de contenu intelligente, optimisation automatisée et expériences utilisateur fluides." },
     ],
   },
   [Language.AR]: {
@@ -128,6 +132,8 @@ export const translations: Record<Language, Translation> = {
       { title: 'أتمتة n8n', desc: 'بناء سير عمل أتمتة قوية باستخدام n8n لتبسيط العمليات وخطوط البيانات وعمليات التسويق.' },
       { title: 'استيراد مصغر وتجارة إلكترونية', desc: 'خدمات استيراد مصغر شاملة من الصين مع إعداد التجارة الإلكترونية وإدارة اللوجستيات.' },
       { title: 'استراتيجيات إبداعية', desc: 'صياغة استراتيجيات إبداعية قائمة على البيانات تجمع بين السرد القصصي وتصميم هوية العلامة التجارية وتقويمات المحتوى واختبارات A/B وعلم نفس الجمهور لتعظيم التفاعل والتحويلات عبر جميع القنوات الرقمية.' },
+      { title: 'الإبداع بالذكاء الاصطناعي مع Nano Banane Veo3 Kling', desc: 'الاستفادة من أدوات الذكاء الاصطناعي المتطورة بما في ذلك Nano Banane وVeo3 وKling لإنشاء محتوى بصري مبتكر وتوليد فيديوهات وأتمتة إبداعية تدفع حدود التسويق الرقمي.' },
+      { title: 'المتاجر والمواقع وصفحات الهبوط ونظم إدارة المحتوى بالذكاء الاصطناعي', desc: 'بناء متاجر تجارة إلكترونية عالية التحويل ومواقع احترافية وصفحات هبوط باستخدام منصات إدارة المحتوى المدعومة بالذكاء الاصطناعي مع إدارة محتوى ذكية وتحسين آلي وتجارب مستخدم سلسة.' },
     ],
   },
   [Language.DE]: {
@@ -171,6 +177,8 @@ export const translations: Record<Language, Translation> = {
       { title: 'n8n Automatisierung', desc: 'Aufbau leistungsstarker No-Code-Automatisierungs-Workflows mit n8n zur Optimierung von Betrieb, Datenpipelines und Marketingprozessen.' },
       { title: 'Mikroimport & E-Commerce', desc: 'Komplette Mikroimport-Services aus China mit E-Commerce-Setup, Produktbeschaffung und Logistikmanagement.' },
       { title: 'Kreative Strategien', desc: 'Datengetriebene kreative Strategien, die Storytelling, Markenidentität, Content-Kalender, A/B-Tests und Zielgruppenpsychologie kombinieren, um Engagement und Conversions über alle digitalen Kanäle zu maximieren.' },
+      { title: 'KI Kreativ mit Nano Banane Veo3 Kling', desc: 'Nutzung modernster KI-Tools einschließlich Nano Banane, Veo3 und Kling zur Erstellung innovativer visueller Inhalte, Videogenerierung und kreativer Automatisierung, die die Grenzen des digitalen Marketings erweitert.' },
+      { title: 'Shops & Websites Landing Pages & CMS KI', desc: 'Aufbau hochkonvertierender E-Commerce-Shops, professioneller Websites und Landing Pages mit KI-gestützten CMS-Plattformen mit intelligentem Content-Management, automatisierter Optimierung und nahtlosen Benutzererlebnissen.' },
     ],
   },
 };

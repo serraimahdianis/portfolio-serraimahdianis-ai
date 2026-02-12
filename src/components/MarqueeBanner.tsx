@@ -1,10 +1,10 @@
-import facebookLogo from '@/assets/facebook-logo.png';
-import pinterestLogo from '@/assets/pinterest-logo.png';
-import tiktokLogo from '@/assets/tiktok-logo.png';
-import googleDiscoverLogo from '@/assets/google-discover-logo.png';
-import adsenseLogo from '@/assets/adsense-logo.png';
-import ezoicLogo from '@/assets/ezoic-logo.png';
-import wiseLogo from '@/assets/wise-logo.png';
+import facebookLogo from '@/assets/facebook-logo.webp';
+import pinterestLogo from '@/assets/pinterest-logo.webp';
+import tiktokLogo from '@/assets/tiktok-logo.webp';
+import googleDiscoverLogo from '@/assets/google-discover-logo.webp';
+import adsenseLogo from '@/assets/adsense-logo.webp';
+import ezoicLogo from '@/assets/ezoic-logo.webp';
+import wiseLogo from '@/assets/wise-logo.webp';
 
 const logos = [
   { src: facebookLogo, alt: 'Facebook' },

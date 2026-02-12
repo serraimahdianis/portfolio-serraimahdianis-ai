@@ -1,7 +1,7 @@
 import { Translation } from '@/lib/types';
 import googleDiscover from '@/assets/google-discover.jpg';
-import facebookLogo from '@/assets/facebook-logo.png';
-import pinterestLogo from '@/assets/pinterest-logo.png';
+import facebookLogo from '@/assets/facebook-logo.webp';
+import pinterestLogo from '@/assets/pinterest-logo.webp';
 
 interface Props {
   t: Translation;
